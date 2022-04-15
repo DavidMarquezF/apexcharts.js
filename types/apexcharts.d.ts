@@ -974,8 +974,9 @@ type ApexXAxis = {
       day?: string
       hour?: string
       minute?: string
-    },
-    group?: {
+    }
+  },
+  group?: {
       groups?: { title: string, cols: number }[],
       style?:  {
         colors?: string | string[]
@@ -984,8 +985,7 @@ type ApexXAxis = {
         fontWeight?: string | number
         cssClass?: string
       }
-    }
-  }
+  },
   axisBorder?: {
     show?: boolean
     color?: string
